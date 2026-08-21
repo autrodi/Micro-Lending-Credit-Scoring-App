@@ -28,15 +28,18 @@ The Credit Scoring App relies on 9 questions only  to evaluate a credit score of
 
 1. Earning Bracket - jacketed as
 
-  a. 3 sub-categories of low income earners
+  - Three (3) sub-categories of low income earners
+
     - Below NGN250,000.00 pa
     - Next up to NGN600,000.00 pa
     - Then up to NGN1,200,000.00 pa
-  b. 2 sub-categories of middle income earners
+
+  - Two (2) sub-categories of middle income earners
+
     - Lower Middle Class (Next up to NGN3,000,000.00 pa)
     - Upper Middle Class (NGN12,000,000.00 set arbitrarily) After all, it's credit!
 
-3. Income Parity - computed as a function of location, annual income and Purchasing Power Parity (theoretically assumed at USD250.00)
+2. Income Parity - computed as a function of location, annual income and Purchasing Power Parity (theoretically assumed at USD250.00)
 
 ### Data generation:
 
