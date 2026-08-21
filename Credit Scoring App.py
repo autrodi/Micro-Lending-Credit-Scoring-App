@@ -26,7 +26,7 @@ st.write(
 # Data input fields
 location = st.selectbox(
     '1. Location: \n\nDo you stay in an Urban, Semi-Urban, Rural area?',
-    ['Urban', 'Semi-Urban', 'Rural']
+    ['Semi-Urban', 'Urban', 'Rural']
 )
 annual_income = st.number_input(
     '2. Annual Income: \n\nHow much do you earn in a year? For earnings ' + 
