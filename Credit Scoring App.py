@@ -91,15 +91,18 @@ def assign_risk_tier(score):
     # Prime lenders to be availed up to 40% of annual income 
     if score >= 740: return (
         'Tier 1', 'Prime Lender', 
-        'Auto-Approve, Max Limit, Low Interest', 0.4)
+        'Auto-Approve with Minimal Verificaton, Maximum Limit, Low' + 
+        ' Interest, Direct Disbursement, Third-party Security Desirable', 0.4)
     # Standard lenders to be availed up to 30% of annual income 
     if score >= 630: return (
         'Tier 2', 'Standard Lender', 
-        'Approve with Verification, Moderate Interest', 0.3)
+        'Approve with Verification, Revised Limit, Moderate Interest' + 
+        ', Direct and Indirect Disbursment, Third-party Security Desirable', 0.3)
     # Watchlisted lenders to be availed not more than 20% of annual income 
     if score >= 520: return (
         'Tier 3', 'Watchlisted', 
-        'Exceptional Approval, Revised Limit, Higher Interest', 0.2)
+        'Exceptional Approval with Verification, Low Limit, High Interest, ' +
+        'No Cash Disbursement, Third-party Security Required', 0.2)
     # Decclined requests not to be availed micro-credit 
     return (
         'Tier 4', 'Below Par', 
